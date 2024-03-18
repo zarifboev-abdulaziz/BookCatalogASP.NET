@@ -15,9 +15,9 @@ namespace BookCatalogv2.Models
         [Required(ErrorMessage = "Description is required")]
         public string Description { get; set; }
 
-        [Required(ErrorMessage = "Price is required")]
+/*        [Required(ErrorMessage = "Price is required")]
         [Range(0.0, Double.MaxValue, ErrorMessage = "Price cannot be negative Value.")]
-        public double Price { get; set; }
+        public double Price { get; set; }*/
 
         [Required(ErrorMessage = "CategoryId is required")]
         public int? CategoryId { get; set; }
