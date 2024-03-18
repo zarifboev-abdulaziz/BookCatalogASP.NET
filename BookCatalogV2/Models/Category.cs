@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿// Student ID: 00011224
+using System.ComponentModel.DataAnnotations;
 
 namespace BookCatalogv2.Models
 {
